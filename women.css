@@ -1,0 +1,121 @@
+.navigation {
+    background-color:white;
+    padding: 20px; 
+    height: 20px;  
+  }
+
+  .navigation .logo img {
+    float:  left;  
+   width: 45px;
+  }
+
+  .navigation img {
+    float: right;  
+   width: 30px;
+ margin-right: 50px;
+ padding-left: 25px;
+  
+  }
+  
+  .navigation ul {
+    list-style-type: none;
+    margin: 0;
+ 
+  }
+  
+  .navigation li {
+    display: inline-block;
+    margin-left: 40px;
+  }
+
+  
+  .navigation a {
+    color:rgb(190, 137, 22) ;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Segoe UI';  
+  }
+
+  .nav-right {
+    float: right;  
+  }
+  .picture {
+   
+    width:auto ;
+    height: auto;
+    overflow-x: hidden;
+  }
+  
+.perfume-row {
+    display: flex; 
+    justify-content: space-around; 
+    margin-bottom: 30px; 
+    padding-top: 50px;
+    
+  }
+  
+  .perfume-section {
+    text-align: left;
+  }
+  
+  .perfume-section img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .perfume-section h2 {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
+  .perfume-section p {
+    font-size: 18px;
+  }
+  footer {
+    background-color:rgb(190, 137, 22);
+    padding: 30px;
+    color: black;
+    text-align: center;
+    margin-top: 70px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .follow-us,
+  .contact-us {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .follow-us h3,
+  .contact-us h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .follow-us a img {
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .contact-us p {
+    margin-bottom: 5px;
+  }
+  
+  .contact-us img {
+    margin-right: 5px;
+    width: 16px;
+    height: 16px;
+  }
+  
+  @media (max-width: 600px){}
+  
